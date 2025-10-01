@@ -1,0 +1,71 @@
+[build]
+  publish = "dist"  # Astro 默认输出目录
+  command = "npm run build"
+
+# HTTP 到 HTTPS 重定向
+[[redirects]]
+  from = "http://blog.cy00.top/*"
+  to = "https://blog.cy00.top/:splat"
+  status = 301
+  force = true
+
+# Astro 生成的 HTML 页面 - 1小时缓存
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    Timing-Allow-Origin = "*"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Astro 生成的 CSS (通常内联或放在 _astro 目录)
+[[headers]]
+  for = "/_astro/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+    X-Content-Type-Options = "nosniff"
+
+# Astro 生成的 JS 文件
+[[headers]]
+  for = "/_astro/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+
+# 字体文件
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*.ttf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Timing-Allow-Origin = "*"
+
+# 默认配置 - 为其他所有路由设置
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Timing-Allow-Origin = "*"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
