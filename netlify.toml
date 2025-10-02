@@ -1,6 +1,12 @@
 [build]
   publish = "dist"  # Astro 默认输出目录
   command = "npm run build"
+  
+# 增强HSTS
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 # Astro 生成的 HTML 页面 - 24小时缓存
 [[headers]]
