@@ -2,21 +2,6 @@
   publish = "dist"  # Astro 默认输出目录
   command = "npm run build"
 
-# 尝试取消netlify重定向
-[[redirects]]
-  from = "http://blog.cy00.top/*"
-  to = "/:splat"
-  status = 200
-  force = false
-  conditions = {Host = "blog.cy00.top"}
-
-[[redirects]]
-  from = "https://blog.cy00.top/*"
-  to = "/:splat" 
-  status = 200
-  force = false
-  conditions = {Host = "blog.cy00.top"}
-
 # Astro 生成的 HTML 页面 - 24小时缓存
 [[headers]]
   for = "/*.html"
