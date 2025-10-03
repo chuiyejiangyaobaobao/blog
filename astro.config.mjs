@@ -31,6 +31,7 @@ export default defineConfig({
 
 	base: "/",
 	trailingSlash: "always",
+	
 	integrations: [
 		tailwind({
 			nesting: true,
@@ -173,6 +174,8 @@ export default defineConfig({
 	},
 	vite: {
 		build: {
+		    minify: 'esbuild',
+		    cssMinify: true,
 			rollupOptions: {
 				onwarn(warning, warn) {
 					// temporarily suppress this warning
@@ -186,5 +189,5 @@ export default defineConfig({
 				},
 			},
 		},
-	},
+  },
 });
