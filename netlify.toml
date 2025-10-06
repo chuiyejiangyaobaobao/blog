@@ -65,12 +65,3 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Timing-Allow-Origin = "*"
-
-# 安全头
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Timing-Allow-Origin = "*"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    Referrer-Policy = "strict-origin-when-cross-origin"
