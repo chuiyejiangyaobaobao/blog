@@ -2,12 +2,6 @@
   publish = "dist"  # Astro 默认输出目录
   command = "npm run build"
   
-# 增强HSTS
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-
 # 根目录
 [[headers]]
   for = "/"
