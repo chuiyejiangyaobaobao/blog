@@ -176,6 +176,7 @@ export default defineConfig({
 		build: {
 		    minify: 'esbuild',
 		    cssMinify: true,
+		    inlineStylesheets: 'auto',
 			rollupOptions: {
 				onwarn(warning, warn) {
 					// temporarily suppress this warning
