@@ -131,22 +131,22 @@ const umamiScripts = umamiConfig.scripts || ""; // 获取Umami scripts配置
 
 <!DOCTYPE html>
 <html lang={siteLang} class="bg-[var(--page-bg)] text-[14px] md:text-[16px]"
-	  data-overlayscrollbars-initialize
+      data-overlayscrollbars-initialize
 >
-	<head>       
-	<!-- 延迟加载 Clarity -->
-    <script>
-    // 页面加载完成后延迟执行
-    document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function() {
-            var clarityScript = document.createElement('script');
-            clarityScript.async = true;
-            clarityScript.src = 'https://www.clarity.ms/tag/tjnxwh3ny9';
-            document.head.appendChild(clarityScript);
-        }, 2000);
-    });
-    </script>
-
+    <head>       
+        <script type="text/javascript">
+            (function(c, l, a, r, i, t, y) {
+                c[a] = c[a] || function() {
+                    (c[a].q = c[a].q || []).push(arguments)
+                };
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "tjnxwh3ny9");
+        </script>
+        
 		<title>{pageTitle}</title>
 
 		<meta charset="UTF-8" />
