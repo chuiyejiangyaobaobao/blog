@@ -10,16 +10,16 @@
       ]
     },
     {
-      "source": "/_astro/:path*",
+      "source": "/:path*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "max-age=31536000, immutable"
         }
       ]
-    },
+    }
     {
-      "source": "/:path*",
+      "source": "/(.+)/",
       "headers": [
         {
           "key": "Cache-Control",
