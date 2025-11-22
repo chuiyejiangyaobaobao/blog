@@ -10,16 +10,7 @@
       ]
     },
     {
-      "source": "/**",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/**/*.{ttf,woff,woff2,js,css,ico}",
+      "source": "/:path*",
       "headers": [
         {
           "key": "Cache-Control",
