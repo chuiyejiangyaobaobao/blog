@@ -10,11 +10,11 @@
       ]
     },
     {
-      "source": "/(.+)/",
+      "source": "/:path+",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "max-age=3600, must-revalidate"
+          "value": "max-age=31536000, immutable"
         }
       ]
     },
