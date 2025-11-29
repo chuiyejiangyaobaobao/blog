@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/posts/:slug",
-      "destination": "/posts/:slug/",
+      "source": "/posts/:path*",
+      "destination": "/posts/:path*/",
       "permanent": true
     }
   ],
