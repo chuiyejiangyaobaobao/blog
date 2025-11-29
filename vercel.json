@@ -1,21 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/posts/:path*",
-      "destination": "/posts/:path*/",
-      "permanent": true
-    }
-  ],
   "headers": [
-    {
-      "source": "/_astro/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, must-revalidate"
-        }
-      ]
-    },
     {
       "source": "/(.*)",
       "headers": [
