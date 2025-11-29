@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -10,10 +10,10 @@
       ]
     },
     {
-      "source": "/:path*/:file*",
+      "source": "/:path*",
       "headers": [
         {
-          "key": "Cache-Control", 
+          "key": "Cache-Control",
           "value": "public, max-age=3600, must-revalidate"
         }
       ]
