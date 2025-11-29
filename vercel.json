@@ -1,5 +1,11 @@
 {
-  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/posts/:slug",
+      "destination": "/posts/:slug/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/_astro/(.*)",
