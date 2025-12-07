@@ -86,6 +86,9 @@ function renderComponent(component: any, index: number, components: any[]) {
 		<a href="https://edge.devpole.com?from=blog.goshujin.top" target="_blank">
 			<img src="https://edge.devpole.com/Logo.svg" alt="DevPole" class="w-full max-w-[280px] rounded-lg hover:opacity-90 transition-opacity" />
 		</a>
+		<p class="mt-8 text-base text-gray-600 dark:text-gray-400">
+    为本站提供高性能边缘计算服务
+  </p>
 	</div>
 </div>
 
