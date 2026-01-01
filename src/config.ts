@@ -129,7 +129,7 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		{
-		src: 'https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQrLIo8M2UP0kUwESJz7C7oHRakaxiLvAcg_woon6qqtobrkQMyBHByb2RQgL2jAVoQw_Pi11CO2IZuKLX_bPc0OHoCnYeCAQJneg&rkey=CAESMOpDCWiYFgoPYFVmaLBNfbHishBmsEHHeNfh-nzWPxnMK_lCrVpl7U4u8Bfg28eBBQ',    // 图标文件路径
+		src: 'https://q2.qlogo.cn/headimg_dl?dst_uin=319213657&spec=0',    // 图标文件路径
 		}
 	],
 
@@ -198,7 +198,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQrLIo8M2UP0kUwESJz7C7oHRakaxiLvAcg_woon6qqtobrkQMyBHByb2RQgL2jAVoQw_Pi11CO2IZuKLX_bPc0OHoCnYeCAQJneg&rkey=CAESMOpDCWiYFgoPYFVmaLBNfbHishBmsEHHeNfh-nzWPxnMK_lCrVpl7U4u8Bfg28eBBQ", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=319213657&spec=0", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "垂叶叶叶",
 	bio: "饭多伤胃，话多伤心",
 	links: [
