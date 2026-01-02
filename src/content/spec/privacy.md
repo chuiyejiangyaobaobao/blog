@@ -2,8 +2,8 @@
 
 ## 协议更新日期
 
-- 上次更新日期：2025-08-10
-- 最后更新日期：2025-08-19
+- 上次更新日期：2025-08-19
+- 最后更新日期：2026-01-02
 
 ## 协议概要
 
@@ -11,7 +11,7 @@
 
 ## 网站概要
 
-本网站为静态页面，使用Astro框架并使用 [MIT开源协议](https://mit-license.org/) 发布在Github。但本网站虽然是静态页面且不直接运行服务器端代码主动收集数据，但会集成第三方服务，在您浏览网站时，相关信息可能会被这些第三方服务提供商收集。
+本网站为静态页面，使用Astro框架并使用 [MIT开源协议](https://mit-license.org/) 将源码发布在Github，使用Vercel发布静态内容并使用DokiDoki CDN加速访问。本网站虽然是静态页面且不直接运行服务器端代码主动收集数据，但会集成第三方服务，在您浏览网站时，相关信息可能会被这些第三方服务提供商收集。
 
 ## 1.我们收集的信息
 
@@ -29,23 +29,29 @@
 
 **我们的第三方服务提供商隐私协议:**
 
-- [Cloudflare](https://www.cloudflare.com/zh-cn/privacypolicy/#6-notice-to-eu-uk-and-swiss-residents)
+- [DNSPod](https://docs.dnspod.cn/account/privacy-policy/)
 
-- [Netlify](https://www.netlify.com/privacy/)
+- [Vercel](https://vercel.com/legal/privacy-policy)
+
+- [DokiDoki CDN](https://www.dooki.cloud/tos.html)
 
 - [MongoDB Atlas](https://www.mongodb.com/legal/privacy/privacy-policy)
 
+- [Bing Webmaster Tools](https://www.microsoft.com/en-ca/privacy/privacystatement)
+
 - [Microsoft Clarity](https://clarity.microsoft.com/terms)
+
+- [Google Search](https://policies.google.com/privacy?hl=zh-CN)
 
 ## 2.您主动提供的信息
 
 如果您使用我们的评论功能即视为同意本协议，我们将会收集并使用以下信息（以下信息将会存储至MongoDB Atlas数据库)：
 
-- 记录您的 QQ 帐号（如果在填写 QQ 邮箱或 QQ 号）
+- 记录您的 QQ 帐号（如果你填写了 QQ 邮箱或 QQ 号）
 
 - 记录您的邮箱，当回复时会通过邮件通知您（不会公开邮箱）
 
-- 记录您的网址（如果填写网址），用于点击头像时快速进入您的网站
+- 记录您的网址（如果你填写了网址），用于点击头像时快速进入您的网站
 
 - 记录您的 IP 地址，作为反垃圾的用户判别依据
 
@@ -83,7 +89,7 @@
 
 由各服务提供商根据其各自的隐私协议处理与保留。我们了解到的典型情况如下（仅供参考，具体以第三方服务提供商隐私协议为准）:
 
-1. Cloudflare, Netlify (日志)： 通常保留较短时间（如数天至数月）
+1. DNSPod, Vercel (日志)： 通常保留较短时间（如数天至数月）
 
 2. Microsoft Clarity：通常最长保留30天
 
