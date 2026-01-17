@@ -1,14 +1,18 @@
 {
-  "regions": ["kix1", "hnd1", "hkg1"],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
+    "regions": [
+        "kix1",
+        "hnd1",
+        "hkg1"
+    ],
+    "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, must-revalidate"
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=3600, must-revalidate"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
