@@ -185,7 +185,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Friends,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "隐私协议",
+			name: "隐私",
 			url: "/privacy/",
 			icon: "material-symbols:person",
 		},
