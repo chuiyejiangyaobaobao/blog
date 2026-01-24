@@ -13,17 +13,17 @@ if (!friendsPost) {
 
 const { Content } = await render(friendsPost);
 const items = [
+    {
+		title: "AcoFork Blog",
+		imgurl: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
+		desc: "Protect What You Love",
+		siteurl: "https://blog.acofork.com/",
+	},
 	{
 		title: "星辰の笔记",
 		imgurl: "https://blog.strarry.top/avatar.jpg",
 		desc: "Code | Think | Share | Repeat",
 		siteurl: "https://blog.strarry.top/",
-	},
-	{
-		title: "AcoFork Blog",
-		imgurl: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
-		desc: "Protect What You Love",
-		siteurl: "https://blog.acofork.com/",
 	},
 ];
 
@@ -59,7 +59,8 @@ const shuffledItems = shuffleArray(items);
                     </div>
                 ))}
             </div>
-            <Markdown class="mt-2">
+            <hr class="border-t border-dashed border-neutral-200 dark:border-neutral-800 my-10" />
+            <Markdown class="mt-0">
                 <Content />
             </Markdown>
         </div>
