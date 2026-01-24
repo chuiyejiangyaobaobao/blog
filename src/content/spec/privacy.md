@@ -37,6 +37,8 @@
 
 - [MongoDB Atlas](https://www.mongodb.com/legal/privacy/privacy-policy)
 
+- [Nice猫API](https://api.nsmao.net/agreement/privacy)
+
 - [Bing Webmaster Tools](https://www.microsoft.com/en-ca/privacy/privacystatement)
 
 - [Microsoft Clarity](https://clarity.microsoft.com/terms)
@@ -47,7 +49,7 @@
 
 如果您使用我们的评论功能即视为同意本协议，我们将会收集并使用以下信息（以下信息将会存储至MongoDB Atlas数据库)：
 
-- 记录您的 QQ 帐号（如果你填写了 QQ 邮箱或 QQ 号）
+- 记录您的 QQ 帐号（如果你填写了 QQ 邮箱或 QQ 号，并且我们会使用Nice猫API通过您填写的 QQ 号来获取你的 QQ 头像与昵称）
 
 - 记录您的邮箱，当回复时会通过邮件通知您（不会公开邮箱）
 
