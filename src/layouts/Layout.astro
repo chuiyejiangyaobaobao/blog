@@ -181,6 +181,7 @@ const umamiScripts = umamiConfig.scripts || ""; // 获取Umami scripts配置
 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="referrer" content="no-referrer">
 		{favicons.map(favicon => (
 			<link rel="icon"
 				  href={favicon.src.startsWith('/') ? url(favicon.src) : favicon.src}

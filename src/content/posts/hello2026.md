@@ -7,7 +7,7 @@ draft: false
 tags: [新年, 日常, 随笔]
 category: 日常
 author: 垂叶叶叶
-image: 'https://img.shetu66.com/2025/09/26/175886714883526054.png'
+image: 'https://i0.hdslb.com/bfs/openplatform/235b17583bb6edb4615768e0156ebba4db9a4318.png@1e_1c.webp'
 ---
 
 封面来源 [设图网](https://www.shetu66.com)

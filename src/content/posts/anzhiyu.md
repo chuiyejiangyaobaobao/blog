@@ -7,7 +7,7 @@ draft: false
 tags: [Hexo, 安知鱼, 随笔]
 category: 教程
 author: 垂叶叶叶
-image: 'https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/658277d773c29a145adf0d05055ce477_4298679859740980134.webp'
+image: 'https://i0.hdslb.com/bfs/openplatform/7225387d88b3187d69a81590ff58096dcc9fc05d.webp@1e_1c.webp'
 ---
 
 本教程参考内容 [安知鱼主题文档](https://docs.anheyu.com/)

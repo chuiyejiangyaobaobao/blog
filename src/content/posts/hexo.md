@@ -7,7 +7,7 @@ draft: false
 tags: [Hexo, 随笔, Github]
 category: 教程
 author: 垂叶叶叶
-image: 'https://ts1.tc.mm.bing.net/th/id/R-C.ece6ef8773307b6d6dc13805348cb79f?rik=ZlC0IKZPbbBFug&pid=ImgRaw&r=0'
+image: 'https://i0.hdslb.com/bfs/openplatform/542bfb390a4e14ed475a1de8df8d446694717887.png@1e_1c.webp'
 ---
 
 本教程适用于 Linux 用户 Windows和Mac用户安装可参考 [Hexo官方文档](https://hexo.io/docs/)
