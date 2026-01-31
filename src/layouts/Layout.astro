@@ -103,6 +103,11 @@ if (title) {
 		: siteConfig.title;
 }
 
+// 代码来源二叉树树
+if (!description) {
+	description = siteConfig.description || pageTitle;
+}
+
 let ogImageUrl: string | undefined;
 if (siteConfig.generateOgImages && postSlug) {
 	ogImageUrl = new URL(`/og/${postSlug}.png`, Astro.site).toString();
