@@ -3,7 +3,7 @@
 ## 协议更新日期
 
 - 上次更新日期：2025-08-19
-- 最后更新日期：2026-01-02
+- 最后更新日期：2026-01-31
 
 ## 协议概要
 
@@ -11,7 +11,7 @@
 
 ## 网站概要
 
-本网站为静态页面，使用Astro框架并使用 [MIT开源协议](https://mit-license.org/) 将源码发布在Github，使用Vercel发布静态内容并使用DokiDoki CDN加速访问。本网站虽然是静态页面且不直接运行服务器端代码主动收集数据，但会集成第三方服务，在您浏览网站时，相关信息可能会被这些第三方服务提供商收集。
+本网站为静态页面，使用Astro框架并使用 [MIT开源协议](https://mit-license.org/) 将源码发布在Github，使用Cloudflare Pages发布静态内容并使用DokiDoki CDN加速访问。本网站虽然是静态页面且不直接运行服务器端代码主动收集数据，但会集成第三方服务，在您浏览网站时，相关信息可能会被这些第三方服务提供商收集。
 
 ## 1.我们收集的信息
 
@@ -31,7 +31,7 @@
 
 - [DNSPod](https://docs.dnspod.cn/account/privacy-policy/)
 
-- [Vercel](https://vercel.com/legal/privacy-policy)
+- [Cloudflare](https://www.cloudflare.com/privacypolicy/)
 
 - [DokiDoki CDN](https://www.dooki.cloud/tos.html)
 
@@ -91,7 +91,7 @@
 
 由各服务提供商根据其各自的隐私协议处理与保留。我们了解到的典型情况如下（仅供参考，具体以第三方服务提供商隐私协议为准）:
 
-1. DNSPod, Vercel (日志)： 通常保留较短时间（如数天至数月）
+1. DNSPod, Cloudflare (日志)： 通常保留较短时间（如数天至数月）
 
 2. Microsoft Clarity：通常最长保留30天
 
