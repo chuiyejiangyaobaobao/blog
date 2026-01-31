@@ -23,6 +23,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "叶子のBlog",
 	subtitle: "记录生活分享技术",
+	description: "叶子のBlog 是一个专注于分享前端开发、网络技术、服务器搭建、科技热点与生活感悟的个人博客，作者为垂叶叶叶"
 
 	lang: SITE_LANG,
 
